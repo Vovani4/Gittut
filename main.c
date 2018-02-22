@@ -4,7 +4,8 @@
 #define N 3
 #define M 10
 
-
+if(stuck)
+	return release;
 int min(int a, int b)
 {
     return a<b ? a : b;
